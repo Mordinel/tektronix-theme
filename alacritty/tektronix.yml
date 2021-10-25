@@ -1,0 +1,58 @@
+colors:
+  # Default colors
+  primary:
+    background: '#0F1914'
+    foreground: '#74F8B7'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#CA274D'
+    green:   '#4DCA27'
+    yellow:  '#CAA427'
+    blue:    '#274DCA'
+    magenta: '#A427CA'
+    cyan:    '#27CAA4'
+    white:   '#B6B6B6'
+
+  # Bright colors
+  bright:
+    black:   '#808080'
+    red:     '#E98DA3'
+    green:   '#A3E98D'
+    yellow:  '#E9D48D'
+    blue:    '#8DA3E9'
+    magenta: '#D48DE9'
+    cyan:    '#8DE9D4'
+    white:   '#FFFFFF'
+
+  # Cursor colors
+  #
+  # Colors which should be used to draw the terminal cursor.
+  #
+  # Allowed values are CellForeground and CellBackground, which reference the
+  # affected cell, or hexadecimal colors like #ff00ff.
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  # Vi mode cursor colors
+  #
+  # Colors for the cursor when the vi mode is active.
+  #
+  # Allowed values are CellForeground and CellBackground, which reference the
+  # affected cell, or hexadecimal colors like #ff00ff.
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  # Selection colors
+  #
+  # Colors which should be used to draw the selection area.
+  #
+  # Allowed values are CellForeground and CellBackground, which reference the
+  # affected cell, or hexadecimal colors like #ff00ff.
+  selection:
+    text: CellBackground
+    background: CellForeground
+

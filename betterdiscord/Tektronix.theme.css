@@ -1,0 +1,95 @@
+/**
+ * @name Tektronix Theme
+ * @author Mason Soroka-Gill
+ * @version 1.0.0
+ * @description A leeter theme
+**/
+
+:root {
+  /* Tektronix Colors */
+  --tektronix-background: #0F1914 !important;
+  --tektronix-current-line: #428965 !important;
+  --tektronix-selection: #428965 !important;
+  --tektronix-foreground: #74F8B7 !important;
+  --tektronix-comment: #428965 !important;
+  --tektronix-cyan: #27CAA4 !important;
+  --tektronix-green: #4DCA27 !important;
+  --tektronix-orange: #E98DA3 !important;
+  --tektronix-pink: #D48DE9!important;
+  --tektronix-purple: #A427CA !important;
+  --tektronix-red: #CA274D !important;
+  --tektronix-yellow: #CAA427 !important;
+  /* Discord Root Colors */
+  --background-primary: var(--tektronix-background) !important;
+  --background-secondary: var(--tektronix-background) !important;
+  --background-secondary-alt: var(--tektronix-background) !important;
+  --background-tertiary: var(--tektronix-background) !important;
+  --background-accent: var(--tektronix-current-line) !important;
+  --background-floating: var(--tektronix-background) !important;
+  --background-modifier-selected: var(--tektronix-current-line) !important;
+  --activity-card-background: var(--tektronix-background) !important;
+  --interactive-normal: var(--tektronix-foreground) !important;
+  --channeltextarea-background: var(--tektronix-selection) !important;
+  --rs-online-color: var(--tektronix-green) !important;
+  --rs-idle-color: var(--tektronix-orange) !important;
+  --rs-dnd-color: var(--tektronix-red) !important;
+  --rs-offline-color: var(--tektronix-selection) !important;
+  --rs-streaming-color: var(--tektronix-purple) !important;
+  --rs-invisible-color: var(--tektronix-comment) !important;
+  --interactive-muted: var(--tektronix-comment) !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--tektronix-comment) !important;
+}
+
+/* Home */
+.container-1D34oG {
+  background-color: var(--tektronix-background) !important;
+}
+
+/* Scroll Bar */
+.theme-dark
+  .scrollerThemed-2oenus.themedWithTrack-q8E3vB
+  .scroller-2LSbBU::-webkit-scrollbar-track-piece {
+  background-color: var(--tektronix-selection) !important;
+  border: 4px solid var(--tektronix-background) !important;
+  border-radius: 8px !important;
+}
+
+/* Syntax Highlighing in Code Blocks*/
+code {
+  color: var(--tektronix-foreground) !important;
+}
+span.hljs-built_in {
+  color: var(--tektronix-purple) !important;
+}
+span.hljs-keyword {
+  color: var(--tektronix-pink) !important;
+}
+span.hljs-title {
+  color: var(--tektronix-cyan) !important;
+}
+span.hljs-attr {
+  color: var(--tektronix-foreground) !important;
+}
+span.hljs-string {
+  color: var(--tektronix-yellow) !important;
+}
+span.hljs-number {
+  color: var(--tektronix-purple) !important;
+}
+span.hljs-symbol {
+  color: var(--tektronix-orange) !important;
+}
+span.hljs-meta {
+  color: var(--tektronix-foreground) !important;
+}
+span.hljs-meta-keyword {
+  color: var(--tektronix-pink) !important;
+}
+span.hljs-meta-string {
+  color: var(--tektronix-orange) !important;
+}
+
