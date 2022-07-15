@@ -1,0 +1,3 @@
+[submodule "gtk/darktronix"]
+	path = gtk/darktronix
+	url = https://github.com/SOROM2/darktronix
